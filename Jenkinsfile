@@ -44,7 +44,7 @@ pipeline {
                     [
                         [
                             artifactId: 'spring-boot-mongo', 
-                            classifier: '', file: 'target/spring-boot-mongo.jar', 
+                            classifier: '', file: 'target/spring-boot-mongo-1.0.jar', 
                             type: 'jar']
                             ], 
                             credentialsId: 'e161dcd8-ce01-45f9-b023-efc0ea5b6a58', 
